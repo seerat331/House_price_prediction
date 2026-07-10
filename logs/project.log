@@ -1,0 +1,18 @@
+2026-07-09 10:40:45,840 | INFO | Logger is working
+2026-07-10 12:37:40,134 | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-10 12:37:40,168 | INFO | Dataset information displayed successfully.
+2026-07-10 12:38:02,127 | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-10 12:38:02,164 | INFO | Dataset information displayed successfully.
+2026-07-10 12:38:02,169 | INFO | Missing values checked successfully
+2026-07-10 12:38:02,205 | INFO | Missing values handled successfully.
+2026-07-10 12:38:28,607 | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-10 12:38:28,631 | INFO | Dataset information displayed successfully.
+2026-07-10 12:38:28,633 | INFO | Missing values checked successfully
+2026-07-10 12:38:28,641 | INFO | Missing values handled successfully.
+2026-07-10 12:38:28,649 | INFO | Duplicate rows checked successfully
+2026-07-10 12:38:28,654 | INFO | Duplicate rows removed successfully
+2026-07-10 12:38:28,715 | INFO | Categorical columns encoded successfully.
+2026-07-10 12:38:28,720 | INFO | Processed dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-10 12:38:28,720 | INFO | 
+Processed dataset saved to:
+/Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
