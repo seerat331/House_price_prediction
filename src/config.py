@@ -15,13 +15,19 @@ PROCESSED_DATA_PATH=(
     / "processed"
     / "processed_house_price.csv"
 )
+FEATURE_ENGINEERED_DATA_PATH=(
+    BASE_DIR
+    / "data"
+    / "processed"
+    / "feature_engineered_house_price.csv"
+)
 
 MODEL_DIR=BASE_DIR / "models"
 FIGURE_DIR=BASE_DIR / "outputs" /"figures"
 REPORT_DIR=BASE_DIR / "outputs" / "reports"
 PREDICTION_DIR=BASE_DIR / "outputs"/ "prediction"
 
-TARGET_COLUMN= "SalePrice"
+TARGET_COLUMN= "Price"
 
 TEST_SIZE=0.2
 

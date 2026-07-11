@@ -16,3 +16,29 @@
 2026-07-10 12:38:28,720 | INFO | 
 Processed dataset saved to:
 /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-10 16:38:54,560 | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-10 16:38:54,586 | INFO | Dataset information displayed successfully.
+2026-07-10 16:38:54,590 | INFO | Missing values checked successfully
+2026-07-10 16:38:54,623 | INFO | Missing values handled successfully.
+2026-07-10 16:38:54,624 | INFO | Duplicate rows checked successfully
+2026-07-10 16:38:54,628 | INFO | Duplicate rows removed successfully
+2026-07-10 16:38:54,675 | INFO | Categorical columns encoded successfully.
+2026-07-10 16:38:54,680 | INFO | Processed dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-10 16:38:54,680 | INFO | 
+Processed dataset saved to:
+/Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-11 09:48:06,639 | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-11 09:48:06,678 | INFO | Dataset information displayed successfully.
+2026-07-11 09:48:06,682 | INFO | Missing values checked successfully
+2026-07-11 09:48:06,693 | INFO | Missing values handled successfully.
+2026-07-11 09:48:06,696 | INFO | Duplicate rows checked successfully
+2026-07-11 09:48:06,697 | INFO | Duplicate rows removed successfully
+2026-07-11 09:48:06,762 | INFO | Categorical columns encoded successfully.
+2026-07-11 09:48:06,765 | INFO | Processed dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-11 09:48:06,765 | INFO | 
+Processed dataset saved to:
+/Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-11 09:48:06,766 | INFO | SqFtPerBedroom feature created successfully.
+2026-07-11 09:48:06,767 | INFO | BathroomPerBedroom feature created successfuuly.
+2026-07-11 09:48:06,769 | INFO | TotalRooms feature created successfully.
+2026-07-11 09:48:06,776 | INFO | Feature engineered dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/feature_engineered_house_price.csv
