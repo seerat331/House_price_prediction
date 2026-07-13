@@ -2,6 +2,8 @@ from pathlib import Path
 
 BASE_DIR=Path(__file__).resolve().parent.parent
 
+
+
 RAW_DATA_PATH=(
     BASE_DIR
     / "data"
@@ -22,7 +24,9 @@ FEATURE_ENGINEERED_DATA_PATH=(
     / "feature_engineered_house_price.csv"
 )
 
+
 MODEL_DIR=BASE_DIR / "models"
+MODEL_PATH=MODEL_DIR / "best_model.pkl"
 FIGURE_DIR=BASE_DIR / "outputs" /"figures"
 REPORT_DIR=BASE_DIR / "outputs" / "reports"
 PREDICTION_DIR=BASE_DIR / "outputs"/ "prediction"
