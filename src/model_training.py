@@ -87,6 +87,7 @@ class ModelTrainer:
             logger.exception(
                 "Train-test split failed."
             )
+
             raise ModelTrainingError(
                 f"Train-test split failed {e}"
             )
@@ -111,7 +112,10 @@ class ModelTrainer:
             )
 
         except Exception as e:
-            logger.exception("Failed to train Linear Regression.")
+            logger.exception(
+                "Failed to train Linear Regression."
+            )
+
             raise ModelTrainingError(
                 f"Linear Regression training failed: {e}"
             )
@@ -144,6 +148,7 @@ class ModelTrainer:
             print("\n" + "=" * 60)
             print("LINEAR REGRESSION RESULTS")
             print("=" * 60)
+
             for metric, value in self.results["Linear Regression"].items():
                 print(f"{metric}: {value:.4f}")
             logger.info("Linear Regression evaluated successfully.")
@@ -187,6 +192,7 @@ class ModelTrainer:
             logger.exception(
             "Failed to train the Decision Regressor model"
             )
+
             raise ModelTrainingError(
                 f"Failed to train Decision Regressor Model: {e}"
             )
@@ -262,6 +268,7 @@ class ModelTrainer:
             logger.exception(
             "Failed to train the Random Forest Regressor model"
             )
+
             raise ModelTrainingError(
                 f"Failed to train Random Forest Regressor Model: {e}"
             )
@@ -337,6 +344,7 @@ class ModelTrainer:
             logger.exception(
             "Failed to train the KNN model"
             )
+
             raise ModelTrainingError(
                 f"Failed to train KNN Model: {e}"
             )
@@ -369,8 +377,10 @@ class ModelTrainer:
             print("\n" + "=" * 60)
             print("KNN REGRESSION RESULTS")
             print("=" * 60)
+
             for metric, value in self.results["KNN"].items():
                 print(f"{metric}: {value:.4f}")
+
             logger.info("KNN Regression evaluated successfully.")
 
         except Exception as e:
@@ -411,12 +421,13 @@ class ModelTrainer:
 
             print("\n"+"="*60)
             print(f"Best Model : {self.best_model_name}")
-            print(f"R Score    : {best_r2:.4f}")
+            print(f"Best R2 Score    : {best_r2:.4f}")
             print("="*60)
 
             logger.info(
                 f"Best model selected: {self.best_model_name}"
             )
+
         except Exception as e:
             logger.exception(
                 "Failed to compare model."
@@ -445,7 +456,7 @@ class ModelTrainer:
             print(f"Saved To   : {save_path}")
 
             logger.info(
-                f"Best model saved successfully at{save_path}"
+                f"Best model saved successfully at {save_path}"
             )
 
         except Exception as e:
