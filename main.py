@@ -3,11 +3,15 @@ from src.preprocessing import DataPreprocessor
 from src.feature_engineering import FeatureEngineering
 from src.model_training import ModelTrainer
 from src.logger import logger
+from src.prediction_pipeline import PredictionPipeline
 from src.config import MODEL_PATH
+from src.feature_importance import FeatureImportance
 from src.config import (
     RAW_DATA_PATH, 
     PROCESSED_DATA_PATH, 
     FEATURE_ENGINEERED_DATA_PATH,
+    MODEL_DIR,
+    FIGURE_DIR
 )
 def main():
 
@@ -57,6 +61,36 @@ def main():
     trainer.compare_models()
 
     trainer.save_best_model(MODEL_PATH)
+
+# Feature importance
+
+    feature_plot = FeatureImportance(
+        trainer.models["Random Forest"],
+        trainer.X.columns
+)
+
+    feature_plot.plot(
+    FIGURE_DIR / "feature_importance.png")
+
+# prediction Pipeline
+    print("\n"+"="*60)
+    print("TESTING PREDICTION PIPELINE")
+    print("="*60)
+
+    prediction_pipeline=PredictionPipeline()
+
+    predicted_price=prediction_pipeline.predict_price(
+
+        home=101,
+        sqft=2500,
+        bedrooms=4,
+        bathrooms=3,
+        offers=2,
+        brick="Yes",
+        neighborhood="East"
+    )
+
+    print(f"\nPredicted House Price: {predicted_price:.2f}")
 
 # Save Feature engineer Dataset
 
