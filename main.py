@@ -75,7 +75,16 @@ def main():
     visualizer.actual_vs_prediction(
         FIGURE_DIR / "actual_vs_predicted.png"
     )
-    
+
+    visualizer.residual_plot(
+        FIGURE_DIR / "residual_plot.png"
+    )
+
+    visualizer.model_comparison(
+        trainer.results,
+        FIGURE_DIR / "model_comparison.png"
+    )
+
 
 # Feature importance
 

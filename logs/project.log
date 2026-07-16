@@ -718,3 +718,108 @@ Processed dataset saved to:
 2026-07-16 10:48:29,610 | HousePricePrediction | INFO | House price predicted successfully.
 2026-07-16 10:48:29,610 | HousePricePrediction | INFO | Prediction is done successfully. 
 2026-07-16 10:48:29,618 | HousePricePrediction | INFO | Feature engineered dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/feature_engineered_house_price.csv
+2026-07-16 11:16:52,222 | HousePricePrediction | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-16 11:16:52,239 | HousePricePrediction | INFO | Dataset information displayed successfully.
+2026-07-16 11:16:52,241 | HousePricePrediction | INFO | Missing values checked successfully
+2026-07-16 11:16:52,265 | HousePricePrediction | INFO | Missing values handled successfully.
+2026-07-16 11:16:52,274 | HousePricePrediction | INFO | Duplicate rows checked successfully
+2026-07-16 11:16:52,282 | HousePricePrediction | INFO | Duplicate rows removed successfully
+2026-07-16 11:16:52,337 | HousePricePrediction | INFO | Categorical columns encoded successfully.
+2026-07-16 11:16:52,343 | HousePricePrediction | INFO | Processed dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-16 11:16:52,343 | HousePricePrediction | INFO | 
+Processed dataset saved to:
+/Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-16 11:16:52,346 | HousePricePrediction | INFO | SqFtPerBedroom feature created successfully.
+2026-07-16 11:16:52,347 | HousePricePrediction | INFO | BathroomPerBedroom feature created successfuuly.
+2026-07-16 11:16:52,348 | HousePricePrediction | INFO | TotalRooms feature created successfully.
+2026-07-16 11:16:52,349 | HousePricePrediction | INFO | Features and target created successfully.
+2026-07-16 11:16:52,357 | HousePricePrediction | INFO | Train-test split completed successfully.
+2026-07-16 11:16:52,373 | HousePricePrediction | INFO | Linear Regression model trained successfully.
+2026-07-16 11:16:52,382 | HousePricePrediction | INFO | Linear Regression evaluated successfully.
+2026-07-16 11:16:52,392 | HousePricePrediction | INFO | Decision tree regression model trained successfully.
+2026-07-16 11:16:52,403 | HousePricePrediction | INFO | Decision Tree evaluated successfully.
+2026-07-16 11:16:52,745 | HousePricePrediction | INFO | Random Forest regression model trained successfully.
+2026-07-16 11:16:52,806 | HousePricePrediction | INFO | Random Forest Regressor evaluated successfully.
+2026-07-16 11:16:52,824 | HousePricePrediction | INFO | KNN model trained successfully.
+2026-07-16 11:16:52,854 | HousePricePrediction | INFO | KNN Regression evaluated successfully.
+2026-07-16 11:16:52,855 | HousePricePrediction | INFO | Best model selected: Linear Regression
+2026-07-16 11:16:52,859 | HousePricePrediction | INFO | Best model saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/models/best_model.pkl
+2026-07-16 11:16:53,733 | HousePricePrediction | INFO | Actual vs Predicted plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/actual_vs_predicted.png
+2026-07-16 11:16:54,177 | HousePricePrediction | INFO | Residual plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/residual_plot.png
+2026-07-16 11:16:54,661 | HousePricePrediction | INFO | Feature Importance plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/feature_importance.png
+2026-07-16 11:16:54,663 | HousePricePrediction | INFO | Best model loaded successfully.
+2026-07-16 11:16:54,665 | HousePricePrediction | INFO | Input dataframe created successfully.
+2026-07-16 11:16:54,667 | HousePricePrediction | INFO | SqFtPerBedroom feature created successfully.
+2026-07-16 11:16:54,670 | HousePricePrediction | INFO | BathroomPerBedroom feature created successfuuly.
+2026-07-16 11:16:54,672 | HousePricePrediction | INFO | TotalRooms feature created successfully.
+2026-07-16 11:16:54,672 | HousePricePrediction | INFO | Feature Engineering applied successfully.
+2026-07-16 11:16:54,678 | HousePricePrediction | INFO | House price predicted successfully.
+2026-07-16 11:16:54,679 | HousePricePrediction | INFO | Prediction is done successfully. 
+2026-07-16 11:16:54,695 | HousePricePrediction | INFO | Feature engineered dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/feature_engineered_house_price.csv
+2026-07-16 15:14:10,052 | HousePricePrediction | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-16 15:14:10,087 | HousePricePrediction | INFO | Dataset information displayed successfully.
+2026-07-16 15:14:10,089 | HousePricePrediction | INFO | Missing values checked successfully
+2026-07-16 15:14:10,113 | HousePricePrediction | INFO | Missing values handled successfully.
+2026-07-16 15:14:10,122 | HousePricePrediction | INFO | Duplicate rows checked successfully
+2026-07-16 15:14:10,124 | HousePricePrediction | INFO | Duplicate rows removed successfully
+2026-07-16 15:14:10,170 | HousePricePrediction | INFO | Categorical columns encoded successfully.
+2026-07-16 15:14:10,175 | HousePricePrediction | INFO | Processed dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-16 15:14:10,176 | HousePricePrediction | INFO | 
+Processed dataset saved to:
+/Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-16 15:14:10,178 | HousePricePrediction | INFO | SqFtPerBedroom feature created successfully.
+2026-07-16 15:14:10,179 | HousePricePrediction | INFO | BathroomPerBedroom feature created successfuuly.
+2026-07-16 15:14:10,180 | HousePricePrediction | INFO | TotalRooms feature created successfully.
+2026-07-16 15:14:10,182 | HousePricePrediction | INFO | Features and target created successfully.
+2026-07-16 15:14:10,194 | HousePricePrediction | INFO | Train-test split completed successfully.
+2026-07-16 15:14:10,212 | HousePricePrediction | INFO | Linear Regression model trained successfully.
+2026-07-16 15:14:10,222 | HousePricePrediction | INFO | Linear Regression evaluated successfully.
+2026-07-16 15:14:10,248 | HousePricePrediction | INFO | Decision tree regression model trained successfully.
+2026-07-16 15:14:10,256 | HousePricePrediction | INFO | Decision Tree evaluated successfully.
+2026-07-16 15:14:10,486 | HousePricePrediction | INFO | Random Forest regression model trained successfully.
+2026-07-16 15:14:10,506 | HousePricePrediction | INFO | Random Forest Regressor evaluated successfully.
+2026-07-16 15:14:10,517 | HousePricePrediction | INFO | KNN model trained successfully.
+2026-07-16 15:14:10,524 | HousePricePrediction | INFO | KNN Regression evaluated successfully.
+2026-07-16 15:14:10,525 | HousePricePrediction | INFO | Best model selected: Linear Regression
+2026-07-16 15:14:10,533 | HousePricePrediction | INFO | Best model saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/models/best_model.pkl
+2026-07-16 15:14:11,862 | HousePricePrediction | INFO | Actual vs Predicted plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/actual_vs_predicted.png
+2026-07-16 15:14:13,197 | HousePricePrediction | INFO | Residual plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/residual_plot.png
+2026-07-16 15:18:00,466 | HousePricePrediction | INFO | Dataset loaded successfully from /Users/macbookair/Documents/ml projects for github/house price prediction/data/raw/house_price.csv
+2026-07-16 15:18:00,494 | HousePricePrediction | INFO | Dataset information displayed successfully.
+2026-07-16 15:18:00,496 | HousePricePrediction | INFO | Missing values checked successfully
+2026-07-16 15:18:00,517 | HousePricePrediction | INFO | Missing values handled successfully.
+2026-07-16 15:18:00,521 | HousePricePrediction | INFO | Duplicate rows checked successfully
+2026-07-16 15:18:00,526 | HousePricePrediction | INFO | Duplicate rows removed successfully
+2026-07-16 15:18:00,571 | HousePricePrediction | INFO | Categorical columns encoded successfully.
+2026-07-16 15:18:00,575 | HousePricePrediction | INFO | Processed dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-16 15:18:00,576 | HousePricePrediction | INFO | 
+Processed dataset saved to:
+/Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/processed_house_price.csv
+2026-07-16 15:18:00,578 | HousePricePrediction | INFO | SqFtPerBedroom feature created successfully.
+2026-07-16 15:18:00,579 | HousePricePrediction | INFO | BathroomPerBedroom feature created successfuuly.
+2026-07-16 15:18:00,582 | HousePricePrediction | INFO | TotalRooms feature created successfully.
+2026-07-16 15:18:00,586 | HousePricePrediction | INFO | Features and target created successfully.
+2026-07-16 15:18:00,595 | HousePricePrediction | INFO | Train-test split completed successfully.
+2026-07-16 15:18:00,613 | HousePricePrediction | INFO | Linear Regression model trained successfully.
+2026-07-16 15:18:00,623 | HousePricePrediction | INFO | Linear Regression evaluated successfully.
+2026-07-16 15:18:00,632 | HousePricePrediction | INFO | Decision tree regression model trained successfully.
+2026-07-16 15:18:00,637 | HousePricePrediction | INFO | Decision Tree evaluated successfully.
+2026-07-16 15:18:00,826 | HousePricePrediction | INFO | Random Forest regression model trained successfully.
+2026-07-16 15:18:00,847 | HousePricePrediction | INFO | Random Forest Regressor evaluated successfully.
+2026-07-16 15:18:00,852 | HousePricePrediction | INFO | KNN model trained successfully.
+2026-07-16 15:18:00,861 | HousePricePrediction | INFO | KNN Regression evaluated successfully.
+2026-07-16 15:18:00,861 | HousePricePrediction | INFO | Best model selected: Linear Regression
+2026-07-16 15:18:00,875 | HousePricePrediction | INFO | Best model saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/models/best_model.pkl
+2026-07-16 15:18:01,669 | HousePricePrediction | INFO | Actual vs Predicted plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/actual_vs_predicted.png
+2026-07-16 15:18:02,094 | HousePricePrediction | INFO | Residual plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/residual_plot.png
+2026-07-16 15:18:02,457 | HousePricePrediction | INFO | Model comparison plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/model_comparison.png
+2026-07-16 15:18:02,997 | HousePricePrediction | INFO | Feature Importance plot saved at /Users/macbookair/Documents/ml projects for github/house price prediction/outputs/figures/feature_importance.png
+2026-07-16 15:18:02,999 | HousePricePrediction | INFO | Best model loaded successfully.
+2026-07-16 15:18:02,999 | HousePricePrediction | INFO | Input dataframe created successfully.
+2026-07-16 15:18:03,000 | HousePricePrediction | INFO | SqFtPerBedroom feature created successfully.
+2026-07-16 15:18:03,001 | HousePricePrediction | INFO | BathroomPerBedroom feature created successfuuly.
+2026-07-16 15:18:03,002 | HousePricePrediction | INFO | TotalRooms feature created successfully.
+2026-07-16 15:18:03,002 | HousePricePrediction | INFO | Feature Engineering applied successfully.
+2026-07-16 15:18:03,007 | HousePricePrediction | INFO | House price predicted successfully.
+2026-07-16 15:18:03,008 | HousePricePrediction | INFO | Prediction is done successfully. 
+2026-07-16 15:18:03,015 | HousePricePrediction | INFO | Feature engineered dataset saved successfully at /Users/macbookair/Documents/ml projects for github/house price prediction/data/processed/feature_engineered_house_price.csv
