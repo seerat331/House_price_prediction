@@ -9,21 +9,54 @@ class FeatureImportance:
 
     def plot(self, save_path):
         try:
-            importance=self.model.feature_importances_
+            importances=self.model.feature_importances_
+
+            sorted_indices=importances.argsort()
+
+            sorted_features=[
+                self.feature_names[i]
+                for i in sorted_indices
+            ]
+
+            sorted_importances=importances[sorted_indices]
+
             plt.figure(figsize=(10, 4))
-            plt.barh(
-                self.feature_names,
-                importance
+            bars=plt.barh(
+                sorted_features,
+                sorted_importances,
+                color="skyblue",
+                edgecolor="black"
+                )
+            plt.title("Feature Importance",
+                      fontsize=16,
+                      fontweight="bold"
+                      )
+            plt.xlabel("features",
+                       fontsize=12)
+            plt.ylabel("Importance",
+                       fontsize=12)
+            
+            plt.grid(
+                axis="x",
+                linestyle="--",
+                alpha=0.5
             )
-            plt.title("Feature Importance")
-            plt.xlabel("features")
-            plt.ylabel("Importance")
 
-            plt.xticks(rotation=45)
+            for bar in bars:
+                width=bar.get_width()
 
+                plt.text(
+                    width+0.002,
+                    bar.get_y()+bar.get_height()/2,
+                    f"[width:.3f]",
+                    va="center",
+                    fontsize=10
+                )
             plt.tight_layout()
 
-            plt.savefig(save_path)
+            plt.savefig(save_path,
+                        dpi=300,
+                        bbox_inches="tight")
 
             plt.close()
 

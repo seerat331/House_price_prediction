@@ -3,6 +3,7 @@ from src.preprocessing import DataPreprocessor
 from src.feature_engineering import FeatureEngineering
 from src.model_training import ModelTrainer
 from src.logger import logger
+from src.model_visualizer import ModelVisualizer
 from src.prediction_pipeline import PredictionPipeline
 from src.config import MODEL_PATH
 from src.feature_importance import FeatureImportance
@@ -62,6 +63,20 @@ def main():
 
     trainer.save_best_model(MODEL_PATH)
 
+# Model Visualization
+
+    y_pred=trainer.best_model.predict(trainer.X_test)
+
+    visualizer=ModelVisualizer(
+        trainer.y_test,
+        y_pred
+    )
+
+    visualizer.actual_vs_prediction(
+        FIGURE_DIR / "actual_vs_predicted.png"
+    )
+    
+
 # Feature importance
 
     feature_plot = FeatureImportance(
@@ -71,6 +86,7 @@ def main():
 
     feature_plot.plot(
     FIGURE_DIR / "feature_importance.png")
+
 
 # prediction Pipeline
     print("\n"+"="*60)
